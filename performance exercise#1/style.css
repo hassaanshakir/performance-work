@@ -1,0 +1,89 @@
+/* General styles - put these straight into your stylesheet */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
+
+html {
+  font-family: "Helvetica neue", Arial, "sans serif";
+  font-size: 10px;
+  background-color: #ccc;
+}
+
+/* Selectors to be matched up with rulesets */
+
+/* .card article img
+  .card footer
+  .card header
+  .card */
+
+/* Rulesets to be matched up with selectors */
+.card h2 {
+  font-size: 2em; /* 1em = 10px as html have 10px fontsize declared */
+  line-height: 30px; /* lineheight = contentbox height will make element centered vertically*/
+}
+
+.card article {
+  height: 12em;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.card article p {
+  padding: 1em;
+}
+
+.card {
+  width: 35em;
+  height: 22em;
+  margin: 5em auto;
+  background-color: red;
+  border: 0.2em solid black;
+  border-radius: 1.5em;
+}
+
+.card footer,
+.card header {
+  height: 3em;
+  padding: 1em;
+}
+
+.card footer {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.1),
+    rgba(0, 0, 0, 0)
+  );
+  border-radius: 1.5em 1.5em 0 0;
+}
+
+.card footer p {
+  font-size: 1.5em;
+  line-height: 30px;
+}
+
+.card header {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.1)
+  );
+  border-radius: 0 0 1.5em 1.5em;
+}
+
+.card article img {
+  max-height: 100%; /* apply to img so that it not goes out of box => max 100% means that it will take 100% of parent height */
+  float: right;
+}
+
+/* styles specific to the setup of the card container */
+/* styles specific to the header and footer, */
+/* styles specific to the main business card contents */
