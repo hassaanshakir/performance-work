@@ -1,0 +1,25 @@
+html {
+  font-family: sans-serif;
+}
+.wrapper {
+  width: 200px;
+  height: 300px;
+  margin: 0 auto;
+  background: linear-gradient(195deg, #d51818, #be4056);
+  border-radius: 5px;
+  border: 1px solid #da3131;
+  box-shadow: rgb(1 1 1 / 94%) 0 5px 12px 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper p {
+  text-align: center;
+  font-size: 1rem; /* converted px into rem by converter */
+  color: #fff;
+  text-shadow: 2px 2px #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
